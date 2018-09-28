@@ -69,4 +69,9 @@ h1{
     button{
         position:none;
     }
+    main{
+        position:none;
+        height:70vh;
+        width:100%;
+    }
 }
