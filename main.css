@@ -33,6 +33,11 @@ td{
 .value{
     border-bottom: 0px black solid;
 }
+nav{
+    padding-bottom: 25px;
+    margin-bottom:20px;
+    transform:translate(18px,180px);
+}
 
 a{
     position: relative;
@@ -52,34 +57,34 @@ h1{
     left: 54%;
 }
 @media only screen and (max-width: 768px){
-    *{
-        overflow:hidden;
-    }
+
     h1{
-        position:none;
         display:none;
+        position:none;
     }
 
     a{
-        left:150px;
-        font-size: 8px;
+        left:200;
+        top:-130;
+        padding-right:20;
+        margin:0
     }
     button{
-        transform:translate(-140px,-140px);
+        transform:translate(-140px,-240px);
         width:320px;
-        height:20px;
+        height:80px;
     }
     main{
-        height:70vh;
+        height:100vh;
         width:100%;
         position: relative;  
     }
     table{
-        transform:translate(70px, 0);
+        transform:translate(70px, 0px);
     }
     td{
-        width: 50px;
-        height:50px;
+        width: 80px;
+        height:80px;
     }
     tr{
     width:20%;
