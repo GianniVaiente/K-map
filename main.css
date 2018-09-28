@@ -57,24 +57,38 @@ h1{
     left: 54%;
 }
 @media only screen and (max-width: 768px){
+    *{
+        overflow:hidden;
+    }
     h1{
         position:none;
     }
-    nav{
-        position:none;
+
+    a{
+        left:150px;
+        font-size: 30px;
     }
     button{
-        position:none;
+        transform:translate(-140px,-140px);
+        width:320px;
+        height:80px;
     }
     main{
         height:70vh;
         width:100%;
+        position: relative;  
+    }
+    table{
+        transform:translate(70px, 0);
     }
     td{
-        width: 25%;
-        height:25%;
+        width: 80px;
+        height:80px;
     }
     tr{
-    width:40%;
-    height:10%;}
+    width:20%;
+    height:20%;}
+}
+.input{
+    transform:translate(160px,0px);
 }
