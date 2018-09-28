@@ -56,3 +56,6 @@ h1{
     top:107%;
     left: 54%;
 }
+@media only screen and (max-width: 768px){
+    *{display:block;}
+}
