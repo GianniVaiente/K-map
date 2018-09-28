@@ -57,5 +57,16 @@ h1{
     left: 54%;
 }
 @media only screen and (max-width: 768px){
-    *{display:block;}
+    h1{
+        position:none;
+    }
+    table{
+        position:none;
+    }
+    nav{
+        position:none;
+    }
+    button{
+        position:none;
+    }
 }
