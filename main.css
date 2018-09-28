@@ -53,39 +53,13 @@ footer{
     min-width:400px;
 }
 @media only screen and (max-width: 768px){
-<<<<<<< HEAD
     *{
         padding:0;
         margin:0;
     }
     body{
         height: 100%;
-=======
-
-    h1{
-        display:none;
-        position:none;
-    }
-
-    a{
-        left:200;
-        top:-130;
-        padding-right:20;
-        margin:0
-    }
-    button{
-        transform:translate(-140px,-240px);
-        width:320px;
-        height:80px;
-    }
-    main{
-        height:100vh;
->>>>>>> 2f309eb831901cdee6ee8f86d70a52d287bc2ba0
         width:100%;
-        position: relative;  
-    }
-    table{
-        transform:translate(70px, 0px);
     }
     header{
         display:none;
@@ -94,17 +68,7 @@ footer{
         width: 80px;
         height:80px;
     }
-<<<<<<< HEAD
 
 button{
     transform:translateY(25%);
-=======
-    tr{
-    width:20%;
-    height:20%;}
 }
-.input{
-    transform:translate(160px,0px);
->>>>>>> 2f309eb831901cdee6ee8f86d70a52d287bc2ba0
-}
-
