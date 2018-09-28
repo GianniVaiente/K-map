@@ -60,9 +60,6 @@ h1{
     h1{
         position:none;
     }
-    table{
-        position:none;
-    }
     nav{
         position:none;
     }
@@ -75,8 +72,8 @@ h1{
         width:100%;
     }
     td{
-        width:10%;
-        height:10%
+        width: 25%;
+        height:25%;
     }
     tr{
     width:40%;
