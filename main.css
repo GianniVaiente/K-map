@@ -61,12 +61,12 @@ h1{
 
     a{
         left:150px;
-        font-size: 30px;
+        font-size: 8px;
     }
     button{
         transform:translate(-140px,-140px);
         width:320px;
-        height:80px;
+        height:20px;
     }
     main{
         height:70vh;
