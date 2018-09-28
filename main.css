@@ -2,13 +2,19 @@
     margin:0;
     padding:0;
 }
-main{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-53.5%,-45.5%);
+body{
+    margin:0;
+    width:auto;
+    height:auto;
+}
+section{
+   width:100%;
 }
 table{
+    position:relative;
+    left:50%;
+    top: 10%;
+    transform:translateX(-50.5%);
     border-spacing: .5px;
     margin:0;
     padding:0;
@@ -20,7 +26,6 @@ table{
 }
 
 tr{
-
     width: 75px;
     border: .1px solid black;
     height:50px;
@@ -33,17 +38,6 @@ td{
 .value{
     border-bottom: 0px black solid;
 }
-nav{
-    padding-bottom: 25px;
-    margin-bottom:20px;
-    transform:translate(18px,180px);
-}
-
-a{
-    position: relative;
-    left:45%;
-    padding-right: 40px;
-}
 header{
      width:100%
 }
@@ -51,44 +45,31 @@ h1{
     text-align:center;
 }
 .clear{
+    position: relative;
     font-size: 15px;
-    position:absolute;
-    top:107%;
-    left: 54%;
+    left:50%;
+}
+footer{
+    min-width:400px;
 }
 @media only screen and (max-width: 768px){
     *{
-        overflow:hidden;
+        padding:0;
+        margin:0;
     }
-    h1{
-        position:none;
-    }
-
-    a{
-        left:150px;
-        font-size: 30px;
-    }
-    button{
-        transform:translate(-140px,-140px);
-        width:320px;
-        height:80px;
-    }
-    main{
-        height:70vh;
+    body{
+        height: 100%;
         width:100%;
-        position: relative;  
     }
-    table{
-        transform:translate(70px, 0);
+    header{
+        display:none;
     }
     td{
         width: 80px;
         height:80px;
     }
-    tr{
-    width:20%;
-    height:20%;}
+
+button{
+    transform:translateY(25%);
 }
-.input{
-    transform:translate(160px,0px);
-}
+
